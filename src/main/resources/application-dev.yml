@@ -37,6 +37,7 @@ security:
     password: 970389
   basic:
     path: ["/**"]
+    enabled: false
 
 
 
