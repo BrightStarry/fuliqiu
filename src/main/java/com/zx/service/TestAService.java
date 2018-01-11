@@ -10,4 +10,7 @@ import java.util.List;
 public interface TestAService {
 
     List<TestA> queryAll();
+
+    public static void main(String[] args) {
+    }
 }

@@ -1,14 +1,10 @@
-server:
-  port: 80
-  context-path: /
-  session:
-    timeout: 30
+
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/fuliqiu
-    username: zx
-    password: 123456
+    username: root
+    password: ZhengXing36
+    url: jdbc:mysql://rm-uf65k2dia4943tqe25o.mysql.rds.aliyuncs.com:3306/test
     type: com.alibaba.druid.pool.DruidDataSource
     initialSize: 5
     minIdle: 5
