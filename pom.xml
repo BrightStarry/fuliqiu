@@ -6,7 +6,7 @@
 	<groupId>com.zx</groupId>
 	<artifactId>fuliqiu</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>jar</packaging>
 
 	<name>fuliqiu</name>
 	<description>福利球网站后台</description>
