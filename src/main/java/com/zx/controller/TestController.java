@@ -28,7 +28,7 @@ public class TestController {
     @GetMapping("/")
     @ResponseBody
     public String test2(){
-        return "index";
+        return "in111dex";
     }
 
 
