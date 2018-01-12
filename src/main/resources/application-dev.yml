@@ -28,7 +28,7 @@ spring:
     check-template: false
     enabled: true
     encoding: UTF-8
-    mode: HTML5
+    mode: LEGACYHTML5
     suffix: .html
     prefix: classpath:/templates/
 security:

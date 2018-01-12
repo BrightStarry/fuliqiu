@@ -1,3 +1,16 @@
+
+#### Bug
+* Thymeleaf模版如果不允许不以/结尾等错误,可如下操作
+>
+    spring:
+        thymeleaf:
+            mode: LEGACYHTML5
+    <dependency>
+    	<groupId>net.sourceforge.nekohtml</groupId>
+    	<artifactId>nekohtml</artifactId>
+    	<version>1.9.22</version>
+    </dependency>
+>
 #### 奇淫巧技
 * 加入如下语句,maven打包时自动跳过测试
 >
@@ -33,3 +46,9 @@
 >
 
 2. 直接建立Scala类.然后使用即可
+
+
+#### 前端
+Bootstrap
+Jquery
+Popper.js 轻量级提示插件
